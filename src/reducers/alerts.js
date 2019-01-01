@@ -7,7 +7,7 @@ const SHOW_EXTENSION_ALERT = 'scratch-gui/alerts/SHOW_EXTENSION_ALERT';
 const CLOSE_ALERT = 'scratch-gui/alerts/CLOSE_ALERT';
 
 const initialState = {
-    visible: true,
+    visible: false,
     // list of alerts, each with properties:
     // * content (optional): react element (a <FormattedMessage />)
     // * extentionId (optional): id string that identifies the extension
